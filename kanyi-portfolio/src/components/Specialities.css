@@ -1,0 +1,24 @@
+.specialties {
+    padding: 50px;
+    text-align: center;
+}
+
+.specialties h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.specialties-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.specialty-icon {
+    flex: 1;
+    margin: 20px;
+}
+
+.specialty-icon p {
+    font-size: 18px;
+    margin-top: 10px;
+}
