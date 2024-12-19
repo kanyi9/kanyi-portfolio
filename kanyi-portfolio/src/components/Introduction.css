@@ -1,48 +1,16 @@
-/* .introduction {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    background-color: rgba(122, 122, 190, 0.973);
-}
-
-.introduction-content {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.introduction-image {
-    flex: 1;
-    text-align: center;
-}
-
-.introduction-image img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}
-
-.introduction h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.introduction p {
-    font-size: 18px;
-    margin-bottom: 10px;
-} */
-
-
 .introduction {
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    background-color: rgba(122, 122, 190, 0.973);
+    background-color: rgba(49, 49, 56, 0.973);
     overflow: hidden; /* Prevent overflow during animation */
+    
 }
 
 .introduction-content {
     flex: 1;
     margin-right: 20px;
+    color: aliceblue;
 }
 
 .introduction-image {
@@ -59,11 +27,19 @@
 .introduction h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.introduction h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: aliceblue;
 }
 
 .introduction p {
     font-size: 18px;
     margin-bottom: 10px;
+    color: aliceblue;
 }
 
 /* Animation styles */
