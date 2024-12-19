@@ -1,4 +1,4 @@
-.introduction {
+/* .introduction {
     display: flex;
     justify-content: space-between;
     padding: 50px;
@@ -29,4 +29,70 @@
 .introduction p {
     font-size: 18px;
     margin-bottom: 10px;
+} */
+
+
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgba(122, 122, 190, 0.973);
+    overflow: hidden; /* Prevent overflow during animation */
+}
+
+.introduction-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.introduction-image {
+    flex: 1;
+    text-align: center;
+}
+
+.introduction-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.introduction h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.introduction p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Animation styles */
+.slide-in-left {
+    animation: slide-in-left 2.5s forwards; /* Animation for text */
+}
+
+.slide-in-right {
+    animation: slide-in-right 2.5s forwards; /* Animation for image */
+}
+
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-100%); /* Start off-screen to the left */
+        opacity: 0; /* Start invisible */
+    }
+    100% {
+        transform: translateX(0); /* End at original position */
+        opacity: 1; /* End visible */
+    }
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(100%); /* Start off-screen to the right */
+        opacity: 0; /* Start invisible */
+    }
+    100% {
+        transform: translateX(0); /* End at original position */
+        opacity: 1; /* End visible */
+    }
 }
