@@ -1,0 +1,135 @@
+/* .about {
+    padding: 50px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: floatUp 2s ease-in-out infinite;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about-text {
+    flex: 1;
+    text-align: left;
+}
+
+.about-text-sentence {
+    position: relative;
+    opacity: 0;
+    animation: slideIn 1s ease-in-out forwards;
+}
+
+.about-text-sentence-1 {
+    animation-delay: 0s;
+}
+
+.about-text-sentence-2 {
+    animation-delay: 0.5s;
+}
+
+.about-text-sentence-3 {
+    animation-delay: 1s;
+}
+
+.about-text-sentence-4 {
+    animation-delay: 1.5s;
+}
+
+.about-text-sentence-5 {
+    animation-delay: 2s;
+}
+
+.about-text-sentence-6 {
+    animation-delay: 2.5s;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+} */
+
+.about-container {
+    max-width: 600px; /* Set a maximum width for the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    animation: bounce 2s infinite; /* Apply bounce animation */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Start at original position */
+    }
+    40% {
+        transform: translateY(-10px); /* Move up */
+    }
+    60% {
+        transform: translateY(-5px); /* Move down slightly */
+    }
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark text color */
+}
+
+p {
+    line-height: 1.6; /* Improve readability */
+    color: #555; /* Slightly lighter text color */
+}
