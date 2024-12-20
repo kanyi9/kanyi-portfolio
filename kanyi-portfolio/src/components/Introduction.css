@@ -19,9 +19,10 @@
 }
 
 .introduction-image img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    -moz-float-edge: 34;
+    /* border-radius: 100%; */
 }
 
 .introduction h1 {
