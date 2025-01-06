@@ -4,7 +4,6 @@
     padding: 50px;
     background-color: rgba(245, 248, 247, 0.973);
     overflow: hidden; /* Prevent overflow during animation */
-    
 }
 
 .introduction-content {
@@ -38,17 +37,17 @@
 
 /* Animation styles */
 .bounce {
-    animation: floatAndbounce 2s infinite; /* Bouncing animation */
+    animation: floatAndBounce 2s infinite; /* Bouncing animation */
 }
 
- @keyframes floatAndBounce {
-        0% {
-            transform: translateY(0);
-        }
-        50% {
-            transform: translateY(-10px);
-        }
-        100% {
-            transform: translateY(0);
-        }
+@keyframes floatAndBounce {
+    0% {
+        transform: translateY(0);
     }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
