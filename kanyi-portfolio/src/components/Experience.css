@@ -7,6 +7,7 @@
     color: rgb(50, 51, 53); /* Text color */
     border-radius: 8px; /* Rounded corners */
     margin: 10px 0; /* Margin between experience items */
+    animation: floatAndBounce 2s infinite;
 }
 
 .experience-date {
@@ -39,4 +40,15 @@
     margin-top: 5px; /* Space between job title and description */
     text-align: left; /* Align description to the left */
     font-size: 16px; /* Adjust font size for description */
+}
+@keyframes floatAndBounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
