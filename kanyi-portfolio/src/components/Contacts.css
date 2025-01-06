@@ -1,0 +1,22 @@
+.contact {
+    max-width: 600px; /* Set a maximum width for the contact display */
+    margin: 50px auto; /* Center the display */
+    padding: 20px; /* Add some padding */
+    background-color: rgba(242, 248, 245, 0.973); /* Background color */
+    color: rgb(26, 27, 27); /* Text color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    text-align: center; /* Center text */
+}
+
+.contact h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.contact-info {
+    font-size: 18px; /* Font size for contact info */
+}
+
+.contact-info p {
+    margin: 10px 0; /* Space between contact info lines */
+}
