@@ -107,7 +107,7 @@ const Experience = () => {
     return (
         <div className="experience">
             <div className="experience-date">
-                2020 - Present
+                2024 - Present
             </div>
             <div className="experience-details">
                 <div className="job-title">
