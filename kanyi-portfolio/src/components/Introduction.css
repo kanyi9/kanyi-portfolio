@@ -2,15 +2,16 @@
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    background-color: rgba(29, 122, 79, 0.973);
+    background-color: rgba(245, 248, 247, 0.973);
     overflow: hidden; /* Prevent overflow during animation */
+    
 }
 
 .introduction-content {
     flex: 1;
     margin-right: 20px;
-    color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background to the text container */
+    color: rgb(30, 31, 31);
+    background-color: rgba(253, 251, 251, 0.904); /* Optional: Add a background to the text container */
     padding: 20px; /* Add padding for better spacing */
     border-radius: 10px; /* Rounded corners */
 }
@@ -32,22 +33,22 @@
 .introduction h1,
 .introduction h2,
 .introduction p {
-    color: aliceblue; /* Text color */
+    color: rgb(37, 37, 37); /* Text color */
 }
 
 /* Animation styles */
 .bounce {
-    animation: bounce 2s infinite; /* Bouncing animation */
+    animation: floatAndbounce 2s infinite; /* Bouncing animation */
 }
 
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0); /* Start at original position */
+ @keyframes floatAndBounce {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+        100% {
+            transform: translateY(0);
+        }
     }
-    40% {
-        transform: translateY(-10px); /* Move up */
-    }
-    60% {
-        transform: translateY(-5px); /* Move down slightly */
-    }
-}
