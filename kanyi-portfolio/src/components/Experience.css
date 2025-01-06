@@ -1,0 +1,40 @@
+.experience {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between the two sides */
+    align-items: flex-start; /* Align items at the start */
+    padding: 20px; /* Add some padding */
+    background-color: rgba(223, 236, 230, 0.973); /* Background color */
+    color: rgb(51, 53, 54); /* Text color */
+    border-radius: 8px; /* Rounded corners */
+    margin: 10px 0; /* Margin between experience items */
+}
+
+.experience-date {
+    flex: 1; /* Allow this to take up space */
+    font-weight: bold; /* Make the date bold */
+}
+
+.experience-details {
+    flex: 2; /* Allow this to take up more space */
+    text-align: right; /* Align text to the right */
+}
+
+.job-title {
+    display: flex; /* Use flexbox for job title and company */
+    flex-direction: column; /* Stack job title and company vertically */
+    align-items: flex-end; /* Align items to the right */
+}
+
+.job-title h3 {
+    margin: 0; /* Remove default margin */
+}
+
+.job-title p {
+    margin: 5px 0 0; /* Add some margin for spacing */
+}
+
+.job-description {
+    margin-top: 10px; /* Space between job title and description */
+    text-align: left; /* Align description to the left */
+    font-size: 16px; /* Adjust font size for description */
+}
