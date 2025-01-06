@@ -7,6 +7,7 @@
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
     text-align: center; /* Center text */
+    animation: floatAndBounce 2s infinite;
 }
 
 .contact h2 {
@@ -19,4 +20,16 @@
 
 .contact-info p {
     margin: 10px 0; /* Space between contact info lines */
+}
+
+@keyframes floatAndBounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
