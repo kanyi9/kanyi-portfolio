@@ -1,34 +1,33 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #333; /* Dark background color */
-    color: white; /* Text color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Padding for the navbar */
+    background-color: rgba(29, 122, 79, 0.973); /* Background color */
 }
 
 .navbar-logo img {
-    width: 50px; /* Adjust the size of the image */
-    height: 50px; /* Adjust the size of the image */
-    border-radius: 50%; /* Make the image circular */
+    width: 50px; /* Adjust logo size */
+    height: 50px; /* Adjust logo size */
+    border-radius: 50%; /* Make logo circular */
 }
 
 .navbar-links {
-    list-style: none;
-    display: flex;
-    gap: 20px; /* Space between links */
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Use flexbox for links */
+    gap: 15px; /* Space between links */
 }
 
 .navbar-links li {
-    display: inline;
+    display: inline; /* Inline display for list items */
 }
 
-.navbar-links a {
-    color: white; /* Link color */
-    text-decoration: none; /* Remove underline */
+.social-icon {
+    font-size: 24px; /* Size of the icons */
+    color: aliceblue; /* Icon color */
     transition: color 0.3s; /* Smooth transition for hover effect */
 }
 
-.navbar-links a:hover {
-    color: #ff6347; /* Change color on hover */
+.social-icon:hover {
+    color: #007bff; /* Change color on hover */
 }
