@@ -3,7 +3,7 @@
     justify-content: space-between; /* Space between logo and links */
     align-items: center; /* Center items vertically */
     padding: 10px 20px; /* Padding for the navbar */
-    background-color: rgba(29, 122, 79, 0.973); /* Background color */
+    background-color: rgba(251, 253, 252, 0.973); /* Background color */
 }
 
 .navbar-logo img {
@@ -24,7 +24,7 @@
 
 .social-icon {
     font-size: 24px; /* Size of the icons */
-    color: aliceblue; /* Icon color */
+    color: rgb(78, 79, 80); /* Icon color */
     transition: color 0.3s; /* Smooth transition for hover effect */
 }
 
