@@ -15,18 +15,14 @@
     border-radius: 10px; /* Rounded corners */
 }
 
-.introduction-image {
-    flex: 1;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background to the image container */
-    padding: 20px; /* Add padding for better spacing */
-    border-radius: 10px; /* Rounded corners */
-}
+
 
 .introduction-image img {
-    width: 400px;
-    height: 400px;
-    border-radius: 50%; /* Optional: Make the image circular */
+    width: 100%; /* Make the image responsive */
+    max-width: 400px; /* Set a maximum width for the image */
+    height: 500px;; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
 }
 
 .introduction h1,
