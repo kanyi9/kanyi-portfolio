@@ -19,7 +19,7 @@
 
 .introduction-image img {
     width: 100%; /* Make the image responsive */
-    max-width: 400px; /* Set a maximum width for the image */
+    max-width: 450px; /* Set a maximum width for the image */
     height: 500px;; /* Maintain aspect ratio */
     border-radius: 10px; /* Rounded corners for the image */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
