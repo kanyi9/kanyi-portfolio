@@ -1,37 +1,56 @@
+/* Parent container styling */
 .introduction {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 50px;
-    background-color: rgba(245, 248, 247, 0.973);
-    overflow: hidden; /* Prevent overflow during animation */
+    position: relative; /* Required for background layering */
+    overflow: hidden; /* Prevent overflow */
+    height: 100vh; /* Make the section occupy the full viewport height */
+    width: 100vw; /* Full width of the viewport */
 }
 
+/* Background video styling */
+.introduction video.background-video {
+    position: fixed; /* Ensures it stays fixed as the background */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Covers the full width */
+    height: 100vh; /* Covers the full height */
+    object-fit: cover; /* Ensures the video covers the container */
+    z-index: -1; /* Places the video behind all content */
+    opacity: 0.9; /* Adjust the visibility of the video */
+}
+
+/* Content container styling */
 .introduction-content {
     flex: 1;
     margin-right: 20px;
-    color: rgb(30, 31, 31);
-    background-color: rgba(253, 251, 251, 0.904); /* Optional: Add a background to the text container */
+    background-color: rgb(230, 228, 228); /* Light background for readability */
     padding: 20px; /* Add padding for better spacing */
     border-radius: 10px; /* Rounded corners */
+    z-index: 1; /* Ensures it's above the video */
+    color: rgb(30, 31, 31); /* Dark text for contrast */
 }
 
-
-
+/* Image container styling */
 .introduction-image img {
-    width: 100%; /* Make the image responsive */
-    max-width: 450px; /* Set a maximum width for the image */
-    height: 500px;; /* Maintain aspect ratio */
-    border-radius: 10px; /* Rounded corners for the image */
+    width: 100%; /* Responsive width */
+    max-width: 450px; /* Limit the image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+    z-index: 1; /* Above the video */
 }
 
+/* Text styling */
 .introduction h1,
 .introduction h2,
 .introduction p {
-    color: rgb(37, 37, 37); /* Text color */
+    color: rgb(37, 37, 37); /* Dark text color */
 }
 
-/* Animation styles */
+/* Animation for bounce effect */
 .bounce {
     animation: floatAndBounce 2s infinite; /* Bouncing animation */
 }
