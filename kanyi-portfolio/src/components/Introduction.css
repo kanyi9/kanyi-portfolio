@@ -29,8 +29,9 @@
     padding: 20px; /* Add padding for better spacing */
     border-radius: 10px; /* Rounded corners */
     z-index: 1; /* Ensures it's above the video */
-    color: rgb(243, 248, 248); /* Dark text for contrast */
-    font-size: larger;
+    background-color: rgba(39, 38, 38, 0.8); /* Semi-transparent black background */
+    color: rgb(230, 233, 233); /* Dark text for contrast */
+    font-size: 15px; /* Adjust the font size */
 }
 
 /* Image container styling */
@@ -47,7 +48,7 @@
 .introduction h1,
 .introduction h2,
 .introduction p {
-    color: rgb(250, 245, 245); /* Dark text color */
+    color: rgb(250, 249, 249); /* Dark text color */
 }
 
 /* Animation for bounce effect */

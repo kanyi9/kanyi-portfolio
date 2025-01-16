@@ -2,7 +2,7 @@
     max-width: 600px; /* Set a maximum width for the container */
     margin: 50px auto; /* Center the container */
     padding: 20px; /* Add some padding */
-    background-color: #f9f9f9; /* Light background color */
+    background-color: rgba(39, 38, 38, 0.8); /* Semi-transparent black background */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     animation: floatAndBounce 2s infinite
@@ -22,10 +22,11 @@
 
 h2 {
     text-align: center; /* Center the heading */
-    color: #333; /* Dark text color */
+    color: #faf5f5; /* Dark text color */
 }
 
 p {
     line-height: 1.6; /* Improve readability */
-    color: #555; /* Slightly lighter text color */
+    color: #fcfbfb; /* Slightly lighter text color */
+    font-size: larger;
 }
