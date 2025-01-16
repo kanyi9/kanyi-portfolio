@@ -19,24 +19,24 @@
     height: 100vh; /* Covers the full height */
     object-fit: cover; /* Ensures the video covers the container */
     z-index: -1; /* Places the video behind all content */
-    opacity: 0.9; /* Adjust the visibility of the video */
+    opacity: 2; /* Adjust the visibility of the video */
 }
 
 /* Content container styling */
 .introduction-content {
     flex: 1;
     margin-right: 20px;
-    background-color: rgb(230, 228, 228); /* Light background for readability */
     padding: 20px; /* Add padding for better spacing */
     border-radius: 10px; /* Rounded corners */
     z-index: 1; /* Ensures it's above the video */
-    color: rgb(30, 31, 31); /* Dark text for contrast */
+    color: rgb(243, 248, 248); /* Dark text for contrast */
+    font-size: larger;
 }
 
 /* Image container styling */
 .introduction-image img {
     width: 100%; /* Responsive width */
-    max-width: 450px; /* Limit the image size */
+    max-width: 400px; /* Limit the image size */
     height: auto; /* Maintain aspect ratio */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
@@ -47,7 +47,7 @@
 .introduction h1,
 .introduction h2,
 .introduction p {
-    color: rgb(37, 37, 37); /* Dark text color */
+    color: rgb(250, 245, 245); /* Dark text color */
 }
 
 /* Animation for bounce effect */
